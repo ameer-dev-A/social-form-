@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style> 
+    body{
+      height: 110vh;
+      background-color: black;
+      color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .parentof{      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 18rem;
+      background-color:hsl(0, 0%, 15%);
+      padding: 20px;
+      border-radius: 15px;
+    }
+    .parentof :nth-child(4){
+      color: hsl(75, 94%, 57%);
+    }
+    img{
+      width: 20%;
+      border-radius: 25px;
+    }
+    p{font-size: 14px;}
+    button{
+      color: white;
+      margin: 10px;
+      padding: 5px;
+      width: 80%;
+      font-weight: bold;
+      background-color: hsl(0, 0%, 30%);
+    }
+    p.location{margin-top: -10px;}
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @media(max-width=375px){
+       .parent{
+        width:10rem;
+       }
+     }
+  </style>
+</head>
+<body>
+<div class="parentof" >
+  <img src="C:\Users\hp\Desktop\github\potfilo link\social-links-profile-main\social-links-profile-main\assets\images\avatar-jessica.jpeg">
+  <h3 class="head3">Jessica Randall</h3>
+  <p class="location">London, United Kingdom</p>
+  <p class="skill"> "Front-end developer and avid reader."</p>
+  <button type="button" href="#">GitHub</button>
+  <button type="button" href="#">Frontend Mentor</button>
+  <button type="button" href="#">LinkedIn</button>
+  <button type="button" href="#">Twitter</button>
+  <button type="button" href="#">Instagram</button>
+</div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
